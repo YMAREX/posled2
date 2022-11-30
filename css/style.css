@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url(../fonts/RobotoCondensed-Italic.ttf); 
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed';
+}
+.soska img{
+    width: auto;
+    height: 500px;
+
+}
+.block1{
+    display: flex;
+    margin-left: 50px;
+}
+.block1 .soska{
+    margin-top: 50px;
+}
+header{
+    background: url(../img/fon1.jpg) no-repeat;
+    height: 100vh;
+    width: auto;
+}
+.tabl h1{
+    color: aliceblue;
+    
+}
+.tabl h2{
+    color: rgb(255, 162, 0);
+    font-size: 40px;
+}
+.tabl{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+main h3{
+    text-align: center;
+    font-size: 50px;
+}
+main{
+    background: url(../img/fon3.png) no-repeat;
+    width: auto;
+    height: 100vh;
+}
+.burger img{
+    width: 400px;
+    height: 200px;
+}
+.raboti{
+    display: flex;
+}
+.burger{
+    margin-left: 65px;
+}
+main h3{
+    color: red;
+}
+main a{
+   margin-left: 180px;
+   color: red;
+   font-size: 50px;
+   text-decoration: none;
+}
